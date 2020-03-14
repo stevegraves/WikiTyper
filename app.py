@@ -24,6 +24,6 @@ button_quit = Button(root, text='Exit', command=root.quit)
 myLabel1.grid(row=0, column=0)
 myLabel2.grid(row=1, column=0)
 myButton.grid(row=2, column=1)
-button_quit.grid(row=2, column=3)
+button_quit.grid(row=2, column=2)
 
 root.mainloop()
