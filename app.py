@@ -4,8 +4,8 @@ root = Tk()
 root.title('Wiki Type')
 
 # Create a Label widget
-myLabel1 = Label(root, text="Hello")
-myLabel2 = Label(root, text="Hey")
+mainLabel = Label(root, text="Hello")
+Second_Label = Label(root, text="Hey")
 
 e = Entry(root)
 e.grid(row=0, column=2)
@@ -21,8 +21,8 @@ myButton = Button(root, text='button', command=click)
 button_quit = Button(root, text='Exit', command=root.quit)
 
 # Spacing
-myLabel1.grid(row=0, column=0)
-myLabel2.grid(row=1, column=0)
+mainLabel.grid(row=0, column=0)
+Second_Label.grid(row=1, column=0)
 myButton.grid(row=2, column=1)
 button_quit.grid(row=2, column=2)
 
