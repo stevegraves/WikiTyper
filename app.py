@@ -4,7 +4,7 @@ root = Tk()
 root.title('Wiki Type')
 
 # Create a Label widget
-Main_Label = Label(root, text="Hello")
+Main_Label = Label(root, text="Test")
 Second_Label = Label(root, text="Hey")
 
 e = Entry(root)
@@ -16,7 +16,7 @@ def click():
     Label(root, text=e.get()).grid(row=1, column=2)
 
 
-myButton = Button(root, text='button', command=click)
+myButton = Button(root, text='Add Text', command=click)
 # Quit button
 button_quit = Button(root, text='Exit', command=root.quit)
 
