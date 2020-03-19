@@ -1,7 +1,13 @@
 from tkinter import *
+# from PIL import ImageTK, Image
 
 root = Tk()
 root.title('Wiki Type')
+# root.iconbitmap('')
+
+# my_img = ImageTK.PhotoImage(Image.open(''))
+# img_label = Label(image=my_img)
+# img_label.pack()
 
 # Create a Label widget
 Main_Label = Label(root, text="Test")
